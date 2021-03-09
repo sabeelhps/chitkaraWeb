@@ -32,11 +32,11 @@
 ////////////////////////////////////////////////
 // setInterval
 
-let id=setInterval(function () {
+let id=setInterval( ()=> {
     console.log("Set Interval Called");
 }, 1000);
 
-setTimeout(function () {
+setTimeout(()=> {
     console.log("Set Timeout Called")
     clearInterval(id);
 },5000)
