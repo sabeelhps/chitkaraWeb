@@ -6,8 +6,6 @@
 
 body {
 	font-family: "Roboto", sans-serif;
-	background: #ee5c52;
-	background: -webkit-linear-gradient(-45deg, #ee5c52, #e73cae, #2385d5, #23d5d5);
 	background: linear-gradient(-45deg, #ee5c52, #e73cae, #2385d5, #23d5d5);
 	background-size: 400% 1000%;
 	animation: gradient 12s ease-in-out infinite;
