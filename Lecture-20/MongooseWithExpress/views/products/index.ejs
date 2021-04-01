@@ -17,6 +17,12 @@
         <%for(let product of products){%>
             <li> <strong><%= product.name %></strong> 
                 <a href="/products/<%= product._id %>">Details</a>
+                <a href="/products/<%= product._id %>/edit">Edit</a>
+
+                <form style="display: inline;" method="POST" action="/products/<%= product._id %>?_method=DELETE">
+                    <button >Delete</button>
+                </form>
+
                 <ul>
                     <li>$<%= product.price %></li>
                     <li><%= product.desc %></li>
