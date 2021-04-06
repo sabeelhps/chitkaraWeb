@@ -14,20 +14,20 @@
   padding: 16px;
 }
 
-.btn {
+/* .btn {
   background-color: #0077b6;
   color: white;
-}
+} */
 .navbar-brand {
   font-family: "Kaushan Script", cursive;
   text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8);
   font-size: 24px;
 }
 
-.navbar-nav {
+/* .navbar-nav {
   width: 100%;
   font-size: 18px;
-}
+} */
 
 .d-flex button {
   border: none;
