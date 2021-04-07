@@ -16,6 +16,10 @@ io.on('connection', (socket) => {
         msg:'Hello from the socket server'
     })
 
+    socket.on('btn-clicked', () => {
+        socket.emit('click-success');
+    })
+
 });
 
 
