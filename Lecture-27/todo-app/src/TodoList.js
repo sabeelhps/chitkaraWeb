@@ -6,6 +6,7 @@ import './Todo.css';
 class TodoList extends Component {
 
     constructor() {
+        console.log("INSIDE CONSTRUCTOR")
         super();
 
         this.state = {
@@ -63,7 +64,7 @@ class TodoList extends Component {
 
 
     render() {
-
+        console.log('INSIDE RENDER');
         let items = this.state.todos.map((todo,idx) => {
             return <li key={idx}>{todo.name}
                 <span>
