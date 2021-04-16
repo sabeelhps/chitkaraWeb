@@ -9,9 +9,8 @@ class NavigationBar extends Component {
         <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="#home">Blog App</Navbar.Brand>
             <Nav className="mr-auto">
-            <Link to="/blogs"><Nav.Link>Blogs</Nav.Link></Link> 
-            <Link to="/blogs/new"><Nav.Link>New</Nav.Link></Link> 
-        
+            <Nav.Link><Link to="/blogs"> Blogs</Link></Nav.Link>
+            <Nav.Link><Link to="/blogs/new">New</Link></Nav.Link>
             </Nav>
         </Navbar>
         </>
