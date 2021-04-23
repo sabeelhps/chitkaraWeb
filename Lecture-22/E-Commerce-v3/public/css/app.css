@@ -2,12 +2,19 @@
   margin-top: 5rem;
 }
 
-.card {
+.products .card {
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
   margin: 10px auto;
   width: 90%;
   height: 95%;
+}
+
+.products .card .btn {
+  background-color: none;
+  border: 2.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 0px;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .card img {
